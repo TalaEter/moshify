@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+}
+:root {
+  --font-color-primary: #252745;
+  --font-color-secondary: #60627a;
+  --green-color: #9ed08a;
+  --red-color: #f04e44;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.15;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h1 {
+  color: var(--font-color-primary);
+  font-size: 6rem;
+  font-weight: 700;
+  width: fit-content;
+}
+h2 {
+  margin-bottom: 3rem;
+  /* max-width: ; */
+  color: var(--font-color-primary);
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 5rem 0;
+  text-transform: capitalize;
+  /* width: 50rem; */
+}
+h3 {
+  color: var(--font-color-primary);
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 2vh 0 1rem;
+  width: fit-content;
+}
+h4 {
+  color: var(--font-color-primary);
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  width: fit-content;
+}
+h6 {
+  color: var(--font-color-secondary);
+  font-size: 1.5rem;
+  font-weight: 300;
+  width: fit-content;
+  /*   margin:4vh 0; */
+  line-height: 1.7;
+  padding-bottom: 6rem;
+}
+/* --------------------------------------- NAVIGATION BAR ------------------------------------------- */
+
+nav {
+  /* padding: 0 25px; */
+  width: 100%;
+  height: 100px;
+  display: flex;
+  /* border-bottom: 1px solid orangered; */
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  float: left;
+  /* padding: 40px 50px 40px 250px; */
+}
+ul {
+  display: flex;
+  padding: 0;
+  height: 100%;
+}
+li {
+  list-style: none;
+  color: var(--font-color-secondary);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  padding: 41px;
+}
+li a {
+  text-decoration: none;
+  color: var(--font-color-secondary);
+}
+.language {
+  border: none;
+  margin-left: 2rem;
+}
+button {
+  color: white;
+  width: 150px;
+  height: 50px;
+  /* padding: 16px 33px; */
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.13;
+  font-weight: 800;
+  border: none;
+  /* margin: 10.5px; */
+  width: fit-content;
+  padding: 1rem 2rem;
+}
+.secondary-btn {
+  background-color: var(--green-color);
+}
+.primary-btn {
+  background-color: var(--red-color);
+}
+
+li a:hover {
+  color: var(--red-color);
+}
+
+/* --------------------------------------- ABOUT CONTAINER ------------------------------------------- */
+
+.about-container {
+  background-image: url("/about.5603d9ec.webp");
+  width: 100vw;
+  height: 119vh;
+  background-repeat: no-repeat;
+  background-position-x: -26rem;
+}
+.about-container .subcontainer {
+  padding: 25rem 12.5rem 0;
+}
+.about-container h1 {
+  color: var(--font-color-primary);
+  font-size: 6rem;
+  width: 50%;
+  /* font-weight: 700; */
+  margin: 0 0 3rem 0;
+  /* margin-bottom: 0 0 3rem 0; */
+}
+.about-container h6 {
+  color: var(--font-color-secondary);
+  font-size: 1.5rem;
+  width: 50%;
+  font-weight: 300;
+  /* margin-bottom: 3rem; */
+  padding: 0 0 8vh 0;
+  /* margin: 3rem; */
+}
+.deliver-button {
+  margin: 30rem;
+}
+
+/* --------------------------------------- CHOOSE GOKWAZ CONTAINER ------------------------------------------- */
+
+.choose-container {
+  padding: 15vh 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+.choose__right {
+  height: 70%;
+  width: 40vw;
+  float: right;
+  padding-top: 6rem;
+}
+.choose__left {
+  height: 70%;
+  width: 40vw;
+  float: left;
+}
+.choose__left figcaption {
+  text-transform: capitalize;
+  color: var(--font-color-primary);
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 5rem 0;
+  width: 50rem;
+}
+.choose__left img {
+  border-radius: 10px;
+}
+
+/* --------------------------------------- PARTNERS CONTAINER ------------------------------------------- */
+
+.partner-container {
+  background-color: #f9f9f9;
+  /* width: 100%; */
+  height: 60vh;
+  text-align: center;
+  padding: 3vh 5vw;
+}
+.partner-container .text {
+  width: 52%;
+  display: inline-block;
+}
+/* .partner-container h6 {
+  font-size: 1.5rem;
+  /* padding: 0px 21vw 10vh; 
+} */
+.grid {
+  display: grid;
+  /* grid-column-gap: 2vw; */
+  justify-content: space-evenly;
+  /* grid-gap: 5px;*/
+  grid-template-columns: repeat(4, 25fr);
+  /* display: inline-block; */
+}
+
+.grid img {
+  width: 100%;
+  object-fit: cover;
+}
+/*.container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 30fr);
+
+} */
+
+/* --------------------------------------- DELIVERY PROCESS CONTAINER ------------------------------------------- */
+
+.process-container {
+  background-color: white;
+  height: 170vh;
+  text-align: center;
+}
+.process-container .text {
+  width: 45%;
+  display: inline-block;
+  height: 27vh;
+}
+.process-container .flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.process-container .card {
+  width: 17vw;
+  height: 22vh;
+  border-radius: 12px;
+  margin: 70px 0 50px 47.3px;
+  padding: 30px 57.7px 96px 40px;
+  box-shadow: 0 10px 100px 0 rgba(97, 100, 148, 0.07);
+  background-color: white;
+  display: inline-block;
+}
+.card h1 {
+  color: rgba(158, 208, 138, 0.15);
+  margin: 0 0 0 1rem;
+  position: absolute;
+  font-weight: 900;
+}
+.card h4 {
+  font-weight: 800;
+  padding-top: 7vh;
+}
+.card h6 {
+  text-align: left;
+}
+.flex .primary-btn {
+  margin: 5vh;
+  text-transform: capitalize;
+}
+
+/* --------------------------------------- PRICES AND COVERAGE CONTAINER ------------------------------------------- */
+
+.prices-container {
+  background-color: #f9f9f9;
+  padding: 15vh 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+.prices__right {
+  height: 70%;
+  width: 40vw;
+  float: right;
+  padding-top: 5rem;
+}
+.prices__left {
+  height: 70%;
+  width: 40vw;
+  float: left;
+}
+.prices__left figcaption {
+  text-transform: capitalize;
+  color: var(--font-color-primary);
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 5rem 0;
+  width: 50rem;
+}
+.prices__right img {
+  float: left;
+  padding: 0.7rem 2rem 0 0;
+}
+.prices-container .delvery-man {
+  /* float: right; */
+  display: inline;
+  height: 30px;
+}
+.prices__right .textbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 4rem;
+  width: 60%;
+}
+.textbox h6 {
+  padding-bottom: 1.5rem;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.textbox h4 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.textbox span {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+/* --------------------------------------- REVIEWS CONTAINER ------------------------------------------- */
+
+/* --------------------------------------- CONTACT CONTAINER ------------------------------------------- */
+
+.contact-container {
+  background-image: url("/contact.6b735cc1.webp");
+  height: 126vh;
+  object-fit: cover;
+  background-position-x: -26vw;
+  background-repeat: no-repeat;
+}
+.contact-container .text {
+  padding: 10vh 8vw;
+  width: 34%;
+  height: 70%;
+}
+.contact-container input,
+textarea {
+  overflow: visible;
+  width: 95%;
+  margin: 1vh 0;
+  border: 0;
+  height: 4.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: rgba(96, 98, 122, 0.4);
+  padding: 0 0 0 2rem;
+}
+::placeholder {
+  font-size: 1rem;
+  color: rgba(96, 98, 122, 0.4);
+}
+.contact-container textarea {
+  height: 13rem;
+  padding: 2rem;
+  width: 91%;
+  margin-bottom: 3rem;
+}
+.contact-container .primary-btn {
+  color: white;
+  width: fit-content;
+  text-align: center;
+  line-height: 1.13;
+  font-weight: 700;
+  /* margin: 10.5px; */
+  width: fit-content;
+  padding: 0.5rem 4rem;
+}
+.contact-container h4 {
+  color: var(--green-color);
+  margin-bottom: 5rem;
+  font-weight: 700;
+}
+.contact-container h6 {
+  padding: 1rem 0;
+}
+.contact-container h2 {
+  margin-bottom: 1rem;
+}
+
+/* --------------------------------------- CONTACT CONTAINER ------------------------------------------- */
+
+footer {
+  display: flex;
+  background-color: #161728;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
+footer .textbox {
+  width: 40%;
+}
+footer h4 {
+  font-weight: 100;
+  color: white;
+}
+footer h6 {
+  color: #a8a9b7;
+}
+footer img {
+  float: left;
+  width: 16rem;
+}
+footer span {
+  display: flex;
+}
+footer br {
+  color: white;
+}
+
+
+/*# sourceMappingURL=/style.78032849.css.map */
