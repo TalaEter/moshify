@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Gokwaz</title>
 </head>
 <body>
@@ -35,12 +36,11 @@
 
     <section class="about-container">
         <section class="subcontainer">
-            <h1>The Best Delivery Company in Amman, Jordan</h1>
-            <h6>Ship your products from Amman to any place in Jordan with a trusted and licenced delivery company “Gokwaz” that offers top logistics solutions in Jordan.</h6>
-            <button class="primary-btn">Deliver with Gokwaz</button>
+            <h1 data-aos="fade-right">The Best Delivery Company in Amman, Jordan</h1>
+            <h6 data-aos="fade-right">Ship your products from Amman to any place in Jordan with a trusted and licenced delivery company “Gokwaz” that offers top logistics solutions in Jordan.</h6>
+            <button class="primary-btn" data-aos="zoom-in-up">Deliver with Gokwaz</button>
         </section>
     </section>
-
 
 
     <section class="choose-container">
@@ -70,12 +70,12 @@
             <h2>Success partner to our Delivery Services</h2>
             <h6> Gokwaz aims to offer top delivery service in Amman, and to cover all regions in Jordan. With the best delivery prices and fastest courier solutions, cooperating our effort with our success partners</h6>
         </div>
-        <span class="grid">
+        <div class="grid">
             <img src="./images/amazon.svg" alt="amazon logo">
             <img src="./images/fawry.svg" alt="fawry logo">
             <img src="./images/vezeeta.webp" alt="vezeeta logo">
             <img src="./images/palma.svg" alt="palma logo">
-        </span>
+        </div>
     </section>
     
 
@@ -86,37 +86,37 @@
             <h6>We have an accessible website via smart mobile devices and computers, where customers can add delivery orders and keep track of the delivery of their product status.</h6>
         </div>
         <div class="flex">
-            <span class="card">
+            <div class="card" data-aos="zoom-in">
                 <h1>01</h1>
                 <h4>Step 01</h4>
                 <h6>Create an account for each store, and each customer is linked to his own store.</h6>
-            </span>
-            <span class="card">
+            </div>
+            <div class="card" data-aos="zoom-in">
                 <h1>02</h1>
                 <h4>Step 02</h4>
                 <h6>Create a delivery order by the customer.</h6>
-            </span>
-            <span class="card">
+            </div>
+            <div class="card" data-aos="zoom-in">
                 <h1>03</h1>
                 <h4>Step 03</h4>
                 <h6>Acceptance of the delivery request from the follow-up department.</h6>
-            </span>
-            <span class="card">
+            </div>
+            <div class="card" data-aos="zoom-in">
                 <h1>04</h1>
                 <h4>Step 04</h4>
                 <h6>The parcel is received by our representative a day before it is delivered to the customer during the period from 10 am to 6 pm. </h6>
-            </span>
-            <span class="card">
+            </div>
+            <div class="card" data-aos="zoom-in">
                 <h1>05</h1>
                 <h4>Step 05</h4>
                 <h6>The customer receives a text message for each delivered shipment</h6>
-            </span>
-            <span class="card">
+            </div>
+            <div class="card" data-aos="zoom-in">
                 <h1>06</h1>
                 <h4>Step 06</h4>
                 <h6>A customer can track shipments' status using his created account with Gokwaz on the next day of the shipment delivery.</h6>
-            </span>
-            <button class="primary-btn">Download service offer file</button>
+            </div>
+            <button class="primary-btn" data-aos="fade-up">Download service offer file</button>
         </div>
     </section>
 
@@ -126,27 +126,27 @@
             <figcaption>Gokwaz delivery prices & covered regions in Jordan</figcaption>
             <figure><img src="./images/Map.webp" alt="jordan dotted map with pins on it"></figure>
         </aside>
-        <aside class="prices__right">
+        <aside class="prices__right" data-aos="fade-right">
             <h6>Gokwaz offers logistics solutions and delivery services in Amman to all different regions in Jordan, prices vary based on the location, and type of services needed, have a look at the map to know more about the delivery service pricing </h6>
             <h3>Delivery Prices</h3>
-            <img src="./images/red pin.svg" alt="red pin">
+            <img src="./images/red-pin.svg" alt="red pin">
             <div class="textbox">            
                 <h6>North & South Governorates within 48 hours </h6>
                 <h4>4 <span>JOD</span></h4>
             </div>
-            <img src="./images/yellow pin.svg" alt="yellow pin">
+            <img src="./images/yellow-pin.svg" alt="yellow pin">
             <div class="textbox">
                 <h6>Central Governorates, and the central & Southern regions within 48 hours </h6>
                 <h4>3 <span>JOD</span></h4>                
             </div>
-            <img src="./images/green pin.svg" alt="green pin">
+            <img src="./images/green-pin.svg" alt="green pin">
             <div class="textbox">
                 <h6>Amman </h6>
                 <h3>2 <span>JOD (48 Hours)</span></h3>
                 <h3>3.5 <span>JOD (Same Day)</span></h3>
             </div>
         </aside>
-        <!-- <img src="./images/Delivery035-1 1.webp" alt="delivery man drawing" class="delivery-man"> -->
+        <img src="./images/Delivery035-1 1.webp" alt="delivery man drawing" class="delivery-man" style="align-self: center; width: 10rem;">
 
     </section>
 
@@ -158,10 +158,10 @@
             <h6>A successful  business requires constant communication with customers.</h6>
             <h4>Let's Work Together!</h4>
             <form action="">
-                <input type="text" name="first name" id="first-name" placeholder="First Name">
-                <input type="text" name="last name" id="last-name" placeholder="Last Name">
-                <input type="email" name="email" id="emial" placeholder="Email">
-                <textarea name="message" id="message" cols="30" rows="10">Your message</textarea>
+                <input type="text" name="first name" id="first-name" placeholder="First Name" maxlength="20">
+                <input type="text" name="last name" id="last-name" placeholder="Last Name" maxlength="20">
+                <input type="email" name="email" id="emial" placeholder="Email" maxlength="30">
+                <textarea name="message" id="message" cols="30" rows="10" maxlength="100">Your message</textarea>
                 <!-- <input type="text" name="message" id="message" placeholder="Your message"> -->
                 <input type="submit" value="Submit" class="primary-btn">
             </form>
@@ -190,6 +190,12 @@
 
     </footer>
 
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
 
 </body>
 </html>

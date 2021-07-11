@@ -140,7 +140,7 @@ li a:hover {
   width: 50%;
   font-weight: 300;
   /* margin-bottom: 3rem; */
-  padding: 0 0 8vh ​;
+  padding: 0 0 8vh 0;
   /* margin: 3rem; */
 }
 .deliver-button {
@@ -204,6 +204,7 @@ li a:hover {
   justify-content: space-evenly;
   /* grid-gap: 5px;*/
   grid-template-columns: repeat(4, 25fr);
+  /* display: inline-block; */
 }
 
 .grid img {
@@ -243,6 +244,7 @@ li a:hover {
   padding: 30px 57.7px 96px 40px;
   box-shadow: 0 10px 100px 0 rgba(97, 100, 148, 0.07);
   background-color: white;
+  display: inline-block;
 }
 .card h1 {
   color: rgba(158, 208, 138, 0.15);
