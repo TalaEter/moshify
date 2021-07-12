@@ -518,7 +518,7 @@ footer .logo {
 }
 footer .social {
   display: grid;
-  grid-template-columns: /*1fr*/ 4fr 0.25fr 0.25fr 0.25fr 0.25fr;
+  grid-template-columns: 0.25fr 4fr 0.25fr 0.25fr 0.25fr 0.25fr;
   /* border-bottom: 1px solid #a8a9b7; */
   /* padding-top: 2%; */
   padding-bottom: 0;
