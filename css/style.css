@@ -109,6 +109,7 @@ button {
   border: none;
   width: fit-content;
   padding: 1rem 2rem;
+  cursor: pointer;
   /* padding: 16px 33px; 
   margin: 10.5px; 
   line-height: 1.13; */
@@ -127,7 +128,7 @@ li a:hover {
 /* --------------------------------------- ABOUT CONTAINER ------------------------------------------- */
 
 .about-container {
-  background-image: url("../images/about.webp");
+  background-image: url("../images/about.png");
   width: 100vw;
   height: 119vh;
   background-repeat: no-repeat;
@@ -339,8 +340,8 @@ li a:hover {
 .delivery-man {
   width: 40rem;
   position: absolute;
-  left: 72vw;
-  top: 100vh;
+  right: 0rem;
+  bottom: 0rem;
   z-index: 100;
   height: 46rem;
 }
@@ -363,6 +364,7 @@ li a:hover {
   grid-template-columns: 1fr 2fr;
   margin: 5rem 5.5rem 0;
   grid-gap: 20rem;
+  width: 100%;
 }
 .upper-row .h6,
 .upper-row .h2 {
@@ -377,6 +379,7 @@ li a:hover {
   /* overflow-y: hidden; */
   /* white-space: nowrap; */
   grid-column-gap: 1.5rem;
+  width: 100%;
 }
 .lower-row .h6 {
   padding-bottom: 1.5rem;
@@ -398,6 +401,7 @@ li a:hover {
 }
 .navigation-buttons {
   margin-left: 5.5rem;
+  width: 100%;
 }
 span.navigation-red-button {
   align-content: center;
@@ -410,6 +414,7 @@ span.navigation-red-button {
   border-radius: 6px;
   background-color: #f04e44;
   display: inline-block;
+  cursor: pointer;
 }
 span.navigation-white-button {
   max-width: 4rem;
@@ -420,19 +425,20 @@ span.navigation-white-button {
   box-shadow: 0 4px 20px 0 rgba(97, 100, 148, 0.07);
   background-color: #ffffff;
   display: inline-block;
+  cursor: pointer;
 }
 
 /* --------------------------------------- CONTACT CONTAINER ------------------------------------------- */
 
 .contact-container {
-  background-image: url("../images/contact.webp");
-  height: 126vh;
+  background-image: url("../images/contact.png");
+  height: fit-content;
   object-fit: cover;
   background-position-x: -26vw;
   background-repeat: no-repeat;
 }
 .contact-container .text {
-  padding: 10vh 8vw;
+  padding: 7vh 8vw;
   width: 34%;
   height: 70%;
 }
@@ -467,6 +473,7 @@ textarea {
   padding: 0.5rem 4rem;
   font-size: 1.6rem;
   border-radius: 6px;
+  cursor: pointer;
   /* margin: 10.5px; 
   width: fit-content; */
 }
