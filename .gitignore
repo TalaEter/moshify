@@ -2,3 +2,5 @@ node_modules/
 # dist/
 .cache/
 media.css
+index2.html
+style2.css

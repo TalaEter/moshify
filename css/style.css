@@ -139,8 +139,8 @@ button {
   padding: 1rem 2rem;
   cursor: pointer;
   /* padding: 16px 33px; 
-  margin: 10.5px; 
-  line-height: 1.13; */
+    margin: 10.5px; 
+    line-height: 1.13; */
 }
 .secondary-btn {
   background-color: var(--green-color);
@@ -191,8 +191,8 @@ li a:hover {
   width: 55%;
   margin-bottom: 3rem;
   /* font-size: 6rem;
-  font-weight: 700; 
-  margin: 0 0 3rem 0; */
+    font-weight: 700; 
+    margin: 0 0 3rem 0; */
 }
 .about-container h6 {
   color: var(--font-color-secondary);
@@ -317,18 +317,18 @@ li a:hover {
   justify-content: space-evenly;
   grid-template-columns: repeat(4, 25fr);
   /* grid-column-gap: 2vw;
-  grid-gap: 5px;
-  display: inline-block; */
+    grid-gap: 5px;
+    display: inline-block; */
 }
 .grid img {
   width: 100%;
   object-fit: cover;
 }
 /*.container {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(3, 30fr);
-} */
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 30fr);
+  } */
 
 @media screen and (max-width: 375px) {
   .partner-container {
@@ -481,10 +481,10 @@ li a:hover {
   font-weight: var(--extrabold-font);
 }
 /* .prices-container .delvery-man {
-  display: inline;
-  height: 30px;
-  /* float: right; 
-} */
+    display: inline;
+    height: 30px;
+    /* float: right; 
+  } */
 .prices__right .prices__textbox {
   display: flex;
   flex-direction: column;
@@ -593,7 +593,7 @@ li a:hover {
   flex-direction: column;
   height: fit-content;
   /*   justify-content:center;
-  align-items:center; */
+    align-items:center; */
 }
 .reviews-card {
   width: 26vw;
@@ -617,10 +617,10 @@ li a:hover {
 .lower-row {
   display: flex;
   /* grid-template-columns: repeat(3, 30%);
-  overflow-x: hidden;
-  overflow-y: hidden;
-  white-space: nowrap;
-  grid-column-gap: 1.5rem; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    grid-column-gap: 1.5rem; */
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
@@ -632,7 +632,7 @@ li a:hover {
 .lower-row .avatar {
   float: left;
   /* margin-left: -21px;
-  margin-top: -5rem; */
+    margin-top: -5rem; */
 }
 .lower-row .h4 {
   padding-top: 1rem;
@@ -802,7 +802,7 @@ textarea {
   border-radius: 6px;
   cursor: pointer;
   /* margin: 10.5px; 
-  width: fit-content; */
+    width: fit-content; */
 }
 .contact-container h4 {
   color: var(--green-color);
