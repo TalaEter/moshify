@@ -63,7 +63,7 @@ h6 {
   /*   margin:4vh 0; */
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   * {
     text-align: center;
   }
@@ -156,7 +156,7 @@ li a:hover {
   padding: 3rem 1rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   nav {
     flex-direction: column;
     display: ;
@@ -205,7 +205,7 @@ li a:hover {
   margin: 30rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .about-container {
     width: 100%;
     height: fit-content;
@@ -262,7 +262,7 @@ li a:hover {
   border-radius: 10px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .choose-container {
     flex-direction: column;
     flex: 0 0 100%;
@@ -330,7 +330,7 @@ li a:hover {
     grid-template-columns: repeat(3, 30fr);
   } */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .partner-container {
     width: 100%;
     padding: 0;
@@ -395,7 +395,7 @@ li a:hover {
   text-transform: capitalize;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .process-container {
     background-color: white;
     height: fit-content;
@@ -515,7 +515,7 @@ li a:hover {
   display: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .prices-container {
     background-color: #f9f9f9;
     padding: 9vh 0 0 0;
@@ -674,7 +674,7 @@ span.navigation-white-button {
   cursor: pointer;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .reviews-container {
     display: flex;
     grid-template-rows: 0.75fr 1fr 0.25fr;
@@ -816,7 +816,7 @@ textarea {
   margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .contact-container {
     height: fit-content;
     object-fit: cover;
@@ -918,7 +918,7 @@ footer .social {
   /* height: 3rem; */
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   footer {
     height: fit-content;
   }
