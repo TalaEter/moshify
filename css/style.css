@@ -816,6 +816,10 @@ textarea {
   margin-bottom: 1rem;
 }
 
+.warning {
+  color: #f04e44;
+}
+
 @media screen and (max-width: 400px) {
   .contact-container {
     height: fit-content;
